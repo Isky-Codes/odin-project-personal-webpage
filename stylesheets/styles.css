@@ -1,3 +1,5 @@
+
+
 /***********************
 
         HEADER
@@ -20,6 +22,7 @@
     color: #f9faf8;
     font-size: 24px;
     margin: -50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .headerContainer ul {
@@ -32,6 +35,7 @@
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /***********************
@@ -54,11 +58,13 @@
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    font-family: 'Roboto', sans-serif;
 }
 
 .mainContainer p {
     color: #e5e7eb;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .leftMainContainer {
@@ -76,6 +82,7 @@
     padding: 8px;
     width: 30%;
     border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /***********************
@@ -85,14 +92,14 @@
 ************************/
 
 .infoContainer {
-    height: 500px;
+    height: 400px;
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     background-color: white;
     justify-content: space-around;
-    padding-top: 100px;
+    padding-top: 130px;
 }
 
 .infoContainer h1 {
@@ -100,6 +107,7 @@
     font-weight: 900;
     color: #1f2937;
     margin-top: -50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -129,3 +137,111 @@
     height: 150px;
     width: 150px;
 }
+
+/***********************
+
+        QUOTE
+    
+************************/
+
+.quoteContainer {
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.quoteContainer h1 {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    width: 30%;
+    height: 40%;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quoteContainer p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-left: 500px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/***********************
+
+        CTA
+    
+************************/
+
+.CTAContainer {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CTACardContainer {
+    height: 200px;
+    width: 60%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.CTAText h1 {
+    color: white;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.CTAText p {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.CTACardContainer button {
+    border-radius: 5px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    height: 40px;
+    width: 8%;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/***********************
+
+        Footer
+    
+************************/
+
+.footerSection {
+    width: 100%;
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSection p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
