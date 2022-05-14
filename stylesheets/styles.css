@@ -76,6 +76,56 @@
     padding: 8px;
     width: 30%;
     border-radius: 7px;
+}
+
+/***********************
+
+        INFO
+    
+************************/
+
+.infoContainer {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.infoContainer h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-top: -50px;
+}
 
 
+.cardContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.infoCard {
+    display: flex;
+    flex-flow: column wrap;
+    width: 10%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.blueBox {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
 }
